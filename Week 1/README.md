@@ -48,7 +48,7 @@ The architecture includes the following components:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/12_Weeks_AWS_WorkShop_Challenge.git
+git clone https://github.com/hsiddhu2/12_Weeks_AWS_WorkShop_Challenge.git
 cd Week1/root
 ```
 
