@@ -125,3 +125,5 @@ Contributions are welcome! Please create an issue or pull request for any improv
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+Thanks,
+
