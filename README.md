@@ -1,6 +1,6 @@
 # 12 Weeks AWS Workshops
 
-![Workshop Banner](images/12WeeksChallenge.png)
+![Workshop Banner](Images/12WeeksChallenge.png)
 
 Welcome to 12 Weeks AWS Workshops! This challenge is designed to provide in-depth knowledge and hands-on experience in various aspects of Amazon Web Services (AWS). Over the course of 12 weeks, I will explore key AWS core services, dive into identity and access management, networking, storage, databases, infrastructure as code, containers, serverless computing, observability, AI coding companion, analytics, and event-driven architecture. 
 
@@ -8,7 +8,7 @@ The best part is that whether you're a beginner or an experienced AWS user, this
 
 ## Workshop Highlights
 
-![Workshop Highlights](images/WorkshopHighlights.png)
+![Workshop Highlights](Images/WorkshopHighlights.png)
 
 - **AWS Core Services**: Gain a strong foundation in essential AWS services and understand their practical applications.
 
