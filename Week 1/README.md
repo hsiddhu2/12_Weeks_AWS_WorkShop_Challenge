@@ -54,43 +54,48 @@ cd Week1/root
 
 **Directory Structure:**
 
-- Address Book
-  - modules
-    - alb
-      - main.tf
-      - output.tf
-      - variables.tf
-    - asg
-      - config.sh
-      - main.tf
-      - variables.tf
-    - key
-      - main.tf
-      - output.tf
-    - nat
-      - main.tf
-      - variables.tf
-    - rds
-      - main.tf
-      - output.tf
-      - variables.tf
-    - secrets
-      - main.tf
-      - variables.tf
-    - security-group
-      - main.tf
-      - output.tf
-      - variables.tf
-    - vpc
-      - main.tf
-      - output.tf
-      - variables.tf
-  - root
-    - backend.tf
-    - main.tf
-    - providers.tf
-    - terraform.tfvars
-    - variables.tf
+```bash
+.
+├── Address Book
+│   ├── modules
+│   │   ├── alb
+│   │   │   ├── main.tf
+│   │   │   ├── output.tf
+│   │   │   └── variables.tf
+│   │   ├── asg
+│   │   │   ├── config.sh
+│   │   │   ├── main.tf
+│   │   │   └── variables.tf
+│   │   ├── key
+│   │   │   ├── main.tf
+│   │   │   └── output.tf
+│   │   ├── nat
+│   │   │   ├── main.tf
+│   │   │   └── variables.tf
+│   │   ├── rds
+│   │   │   ├── main.tf
+│   │   │   ├── output.tf
+│   │   │   └── variables.tf
+│   │   ├── secrets
+│   │   │   ├── main.tf
+│   │   │   └── variables.tf
+│   │   ├── security-group
+│   │   │   ├── main.tf
+│   │   │   ├── output.tf
+│   │   │   └── variables.tf
+│   │   └── vpc
+│   │       ├── main.tf
+│   │       ├── output.tf
+│   │       └── variables.tf
+│   └── root
+│       ├── backend.tf
+│       ├── main.tf
+│       ├── providers.tf
+│       ├── terraform.tfvars
+│       └── variables.tf
+└── README.md
+
+```
 
 
 ### 2. Update Configuration
@@ -99,19 +104,20 @@ cd Week1/root
 
 Here is the example with the values:
 
-region = "us-east-1"
-project_name = "Immersionday"
-vpc_cidr                = "10.1.0.0/16"
-pub_sub_1a_cidr        = "10.1.1.0/24"
-pub_sub_2b_cidr        = "10.1.2.0/24"
-pri_sub_3a_cidr        = "10.1.11.0/24"
-pri_sub_4b_cidr        = "10.1.12.0/24"
-pri_sub_5a_cidr        = "10.1.21.0/24"
-pri_sub_6b_cidr        = "10.1.22.0/24"
-db_username = "awsuser"
-db_password = "awspassword"
-db_name = "immersionday"
-
+```bash
+- region = "us-east-1"
+- project_name = "Immersionday"
+- vpc_cidr                = "10.1.0.0/16"
+- pub_sub_1a_cidr        = "10.1.1.0/24"
+- pub_sub_2b_cidr        = "10.1.2.0/24"
+- pri_sub_3a_cidr        = "10.1.11.0/24"
+- pri_sub_4b_cidr        = "10.1.12.0/24"
+- pri_sub_5a_cidr        = "10.1.21.0/24"
+- pri_sub_6b_cidr        = "10.1.22.0/24"
+- db_username = "awsuser"
+- db_password = "awspassword"
+- db_name = "immersionday"
+```
 
 - Generate an SSH key pair and place it in the `/modules/key/` directory for secure access to instances.
 - cd into the `Week1/modules/key/` directory and run the following command:`ssh-keygen -f webappserver_key`
