@@ -53,44 +53,45 @@ cd Week1/root
 ```
 
 **Directory Structure: **
-├── Address Book
-│   ├── modules
-│   │   ├── alb
-│   │   │   ├── main.tf
-│   │   │   ├── output.tf
-│   │   │   └── variables.tf
-│   │   ├── asg
-│   │   │   ├── config.sh
-│   │   │   ├── main.tf
-│   │   │   └── variables.tf
-│   │   ├── key
-│   │   │   ├── main.tf
-│   │   │   └── output.tf
-│   │   ├── nat
-│   │   │   ├── main.tf
-│   │   │   └── variables.tf
-│   │   ├── rds
-│   │   │   ├── main.tf
-│   │   │   ├── output.tf
-│   │   │   └── variables.tf
-│   │   ├── secrets
-│   │   │   ├── main.tf
-│   │   │   └── variables.tf
-│   │   ├── security-group
-│   │   │   ├── main.tf
-│   │   │   ├── output.tf
-│   │   │   └── variables.tf
-│   │   └── vpc
-│   │       ├── main.tf
-│   │       ├── output.tf
-│   │       └── variables.tf
-│   └── root
-│       ├── backend.tf
-│       ├── main.tf
-│       ├── providers.tf
-│       ├── terraform.tfvars
-│       └── variables.tf
-└── README.md
+
+- Address Book
+  - modules
+    - alb
+      - main.tf
+      - output.tf
+      - variables.tf
+    - asg
+      - config.sh
+      - main.tf
+      - variables.tf
+    - key
+      - main.tf
+      - output.tf
+    - nat
+      - main.tf
+      - variables.tf
+    - rds
+      - main.tf
+      - output.tf
+      - variables.tf
+    - secrets
+      - main.tf
+      - variables.tf
+    - security-group
+      - main.tf
+      - output.tf
+      - variables.tf
+    - vpc
+      - main.tf
+      - output.tf
+      - variables.tf
+  - root
+    - backend.tf
+    - main.tf
+    - providers.tf
+    - terraform.tfvars
+    - variables.tf
+
 
 ### 2. Update Configuration
 
