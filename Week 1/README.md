@@ -52,7 +52,7 @@ git clone https://github.com/hsiddhu2/12_Weeks_AWS_WorkShop_Challenge.git
 cd Week1/root
 ```
 
-**Directory Structure: **
+**Directory Structure:**
 
 - Address Book
   - modules
