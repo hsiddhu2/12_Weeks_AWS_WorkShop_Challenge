@@ -49,7 +49,10 @@ The architecture includes the following components:
 
 ```bash
 git clone https://github.com/hsiddhu2/12_Weeks_AWS_WorkShop_Challenge.git
-cd Week1/root
+cd Week1/Address\ Book/root
+```
+
+```bash
 ```
 
 **Directory Structure:**
